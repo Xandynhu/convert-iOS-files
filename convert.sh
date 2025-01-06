@@ -60,12 +60,14 @@ for file in $file_list; do
         mv "$file" "${base_name}.${new_extension}_renamed"
         mv "${base_name}.${new_extension}_renamed" "${base_name}.${new_extension}"
         echo "Renamed:       $file -> ${base_name}.${new_extension}"
+        file="${base_name}.${new_extension}"
     fi
 
     # Rename .jpg to .jpeg
     if [ "$new_extension" == "jpg" ]; then
         mv "$file" "${base_name}.jpeg"
         echo "Renamed:       $file -> ${base_name}.jpeg"
+        file="${base_name}.jpeg"
     fi
 
     # =============================================================================
