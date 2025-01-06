@@ -27,3 +27,7 @@ The script assumes that it is beeing in a Linux environment with access to the W
 
 1. heif-convert *(sudo apt install libheif-examples)*
 2. ffmpeg *(sudo apt install ffmpeg)*
+
+# Contributing
+
+Please feel free to contribute to this project. Just fork it, make your changes, and submit a pull request.
