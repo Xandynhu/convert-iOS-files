@@ -1,0 +1,5 @@
+# ignore everything except the convert.sh file
+*
+!.gitignore
+!convert.sh
+!README.md
